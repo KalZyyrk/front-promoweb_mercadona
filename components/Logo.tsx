@@ -6,7 +6,6 @@ import Link from "next/link";
 
 import logoImg from "@/assets/logo.png";
 import logoImgWthText from "@/assets/logoWthText.png";
-import ClientOnly from "@/providers/ClientOnly";
 
 const Logo = () => {
   const [screenSize, setScreenSize] = useState<number>(0);
@@ -24,7 +23,7 @@ const Logo = () => {
 
   return (
     <Link href="/">
-      {screenSize < 675 ? (
+      {screenSize < 769 ? (
         <Image src={logoImg} alt="Mercadona Logo" width={85} />
       ) : (
         <Image src={logoImgWthText} alt="Mercadona Logo" width={300} />
