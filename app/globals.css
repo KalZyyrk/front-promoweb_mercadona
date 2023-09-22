@@ -1,5 +1,10 @@
 @import url("https://use.typekit.net/utn1iue.css");
 
+@font-face {
+  font-family: Avenir-black;
+  src: url("../assets/fonts/Avenir-Black/Avenir-Black.ttf");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,10 +13,18 @@
   font-family: Muli, sans-serif;
 }
 
-text-cucumber {
+.font-Avenir {
+  font-family: Avenir-Black, sans-serif;
+}
+
+.text-cucumber {
   color: #00ab61;
 }
 
-bg-cucumber {
+.bg-cucumber {
   background-color: #00ab61;
+}
+
+.inset-shadow {
+  box-shadow: inset 3px 3px 10px 0 #000000;
 }
