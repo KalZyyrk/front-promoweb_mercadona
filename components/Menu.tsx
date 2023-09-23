@@ -8,7 +8,7 @@ import Button from "./Button";
 import { useCallback, useState } from "react";
 
 const Menu = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isOpen, setIsOpen] = useState<boolean>(true);
   const router = useRouter();
 
   const handleBtnClick = () => {

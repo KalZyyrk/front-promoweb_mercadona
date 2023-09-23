@@ -21,6 +21,7 @@ export const productsMock = [
       id: 2,
       name: "Catégorie 2",
     },
+    promotion: true,
   },
   {
     id: 3,

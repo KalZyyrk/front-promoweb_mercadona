@@ -9,7 +9,7 @@ export interface IProduit {
   description: string;
   price: number;
   imageUrl: string;
-  promotion?: IPromotion | safePromotionType[];
+  promotion?: IPromotion | safePromotionType[] | boolean;
   category: ICategory;
 }
 

@@ -14,7 +14,8 @@
 }
 
 .font-Avenir {
-  font-family: Avenir-Black, sans-serif;
+  font-family: Avenir-Black, Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
 }
 
 .text-cucumber {
