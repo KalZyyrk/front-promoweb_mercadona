@@ -4,7 +4,8 @@ export const productsMock = [
     name: "Produit 1",
     description: "Description du produit 1",
     price: 10.99,
-    imageUrl: "https://example.com/image1.jpg",
+    imageUrl:
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
     category: {
       id: 1,
       name: "Catégorie 1",
@@ -14,7 +15,7 @@ export const productsMock = [
     id: 2,
     name: "Produit 2",
     description: "Description du produit 2",
-    price: 15.5,
+    price: 15.52,
     imageUrl: "https://example.com/image2.jpg",
     category: {
       id: 2,

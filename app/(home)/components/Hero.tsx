@@ -3,7 +3,7 @@ import homeBanner from "@/assets/images/home_banner.jpg";
 
 const Hero = () => {
   return (
-    <div className="relative hidden sm:block">
+    <div className="relative hidden sm:block mb-10">
       <Image
         src={homeBanner}
         alt="home banner"
